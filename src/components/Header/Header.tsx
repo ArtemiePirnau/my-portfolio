@@ -1,7 +1,7 @@
 import { gsap } from 'gsap';
 import { useState } from 'react';
 import Type from './Type.jsx';
-import icon from '../../../public/logo.png';
+//import icon from '../../../public/logo.png';
 
 import '../../style/_global.scss';
 
@@ -23,7 +23,7 @@ const Header = () => {
             <div className="container">
                <div className="header__top-inner">
                   <a className="logo" href="/">
-                     <img className="logo__img" src={icon} alt="logo" />
+                     <img className="logo__img" src="../../../public/logo.png" alt="logo" />
                   </a>
                   <div className="header__top-info">
                      <div
