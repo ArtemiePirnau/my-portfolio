@@ -1,7 +1,7 @@
 import { gsap } from 'gsap';
 import { useState } from 'react';
 import Type from './Type.jsx';
-import icon from '../../../public/logo.png';
+import icon from '../../logo.png';
 
 import '../../style/_global.scss';
 
